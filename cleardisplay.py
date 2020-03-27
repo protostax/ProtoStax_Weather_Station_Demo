@@ -14,6 +14,8 @@
 #   Written by Sridhar Rajagopal for ProtoStax.
 #   BSD license. All text above must be included in any redistribution
 # *
+import sys
+sys.path.append(r'lib')
 
 import epd2in7b
 import time
