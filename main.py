@@ -26,6 +26,9 @@ import traceback
 
 import pyowm
 
+if sys.version_info[0] < 3:
+    raise Exception("Must be using Python 3")
+
 owm = pyowm.OWM('REPLACE_WITH_YOUR_OWM_API_KEY')
 
 # You can invoke the weather apis by City Name, City ID, Lat/Long or
