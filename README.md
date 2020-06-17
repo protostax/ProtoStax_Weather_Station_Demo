@@ -28,8 +28,10 @@ but includes the necessary files from that library directly, so you
 
 **NOTE - Use pip3!**
 
+*Note: The latest version of PyOWM (3.0.0 as of this statement) is a major update, and has some breaking changes]. For this tutorial to work, we'll stick to the version 2.10.0. You can install that version by adding ==2.10.0 to the package name in the command below (it has already been added for you)*
+
 ```
-sudo pip3 install pyowm
+sudo pip3 install pyowm==2.10.0
 git clone https://github.com/protostax/ProtoStax_Weather_Station_Demo.git
 ```
 
