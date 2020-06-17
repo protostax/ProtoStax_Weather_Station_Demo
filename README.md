@@ -13,7 +13,15 @@ using [ProtoStax for Raspberry Pi B+](https://www.protostax.com/products/protost
 main.py comments for more details
 * Python 3 or higher. The code and the ePaper library assumes you are
   using Python 3 or higher! (with Raspbian Buster, the latest is
-  Python3.7) 
+  Python3.7)
+
+**Install spidev, RPi.gpio and Pillow**
+
+```
+sudo apt-get install python3-spidev
+sudo apt-get install rpi.gpio
+sudo apt-get install python3-pil
+```
 
 ## Installing
 
